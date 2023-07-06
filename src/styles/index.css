@@ -1,6 +1,7 @@
 .SecondCounter {
     text-align: center;
-    background-color: cornsilk;
+    background-color: darkcyan;
+    line-height: 70px;
 }
 
 .SecondCounter div {
