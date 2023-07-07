@@ -12,6 +12,7 @@ import Home from "./component/home.jsx";
 
 function SimpleCounter(props) {
     return <>
+    <div className="Body">
         <div className="SecondCounter">
             <div className="Clock"><i class="far fa-clock"></i></div>
             <div className="Days">{props.Days % 10}</div>
@@ -19,6 +20,9 @@ function SimpleCounter(props) {
             <div className="Minutes">{props.Minutes % 10}</div>
             <div className="Seconds">{props.Seconds % 10}</div>
         </div>
+        <div className="pic"><img src="https://i.pinimg.com/originals/6e/23/c8/6e23c87890cf775befeeef4c437df254.jpg"></img></div>
+        <div className="footer"></div>
+    </div>
     </>
 };
 SimpleCounter.propTypes = {
@@ -43,6 +47,4 @@ setInterval (function () {
     (<SimpleCounter Seconds= {Seconds} Minutes= {Minutes} Hours= {Hours} Days= {Days}/>, 
     document.querySelector("#app"));
 },1000);
-
-//render your react application
 

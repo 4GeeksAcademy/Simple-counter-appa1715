@@ -1,18 +1,28 @@
 .SecondCounter {
     text-align: center;
-    background-color: darkcyan;
+    background-color: beige;
     line-height: 70px;
 }
-
+.body{
+    background-color: darkcyan;
+}
 .SecondCounter div {
     display: inline;
-    background-color: darkcyan;
-    color: azure;
+    background-color: beige;
+    color: black;
     font-size: 75px;
     line-height: 50px;
     padding: 10px;
 }
-
+.pic {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    background-color: beige;
+}
+.footer{
+    background-color: beige;
+}
 /* 
 
     You can write your own styles here...
